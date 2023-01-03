@@ -14,7 +14,7 @@ import hashlib
 import requests
 import os
 
-UPTOBOX_TOKEN = os.environ.get("UPTOBOX_TOKEN","")
+UPTOBOX_TOKEN = "997b72bfa6309eabec64d7b233a5cc098l3rk"
 
 def yandex_disk(url: str) -> str:
     """ Yandex.Disk direct link generator
